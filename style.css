@@ -1,3 +1,15 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.top-player-details {
+  display: flex;
+}
+.player-img img {
+  width: 56px;
+  height: 56px;
 }
